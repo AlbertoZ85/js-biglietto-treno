@@ -4,7 +4,7 @@ var prezzo = 0.21*percorso;
 
 if (eta < 18) {
     prezzo -= 0.20*prezzo;
-}   else if (eta > 65) {
+}   else if (eta >= 65) {
     prezzo -= 0.40*prezzo;
 }
 
